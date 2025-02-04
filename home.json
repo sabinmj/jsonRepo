@@ -7,7 +7,7 @@
         },
         {
             "id": "banner_2",
-            "imageUrl": "https://example.com/banner2.jpg",
+            "imageUrl": "https://raw.githubusercontent.com/sabinmj/jsonRepo/refs/heads/main/images/BANNER_1400_x500_Over_200_Healthy_Meals.webp",
             "link": "/banner2-details"
         }
     ],
