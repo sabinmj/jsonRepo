@@ -25,7 +25,7 @@
                     "id": "item_1",
                     "title": "Item 1",
                     "description": "Description for item 1",
-                    "imageUrl": "https://example.com/item1.jpg",
+                    "imageUrl": "https://picsum.photos/seed/picsum/200/300",
                     "link": "/item1-details",
                     "layout": 1
                 },
@@ -33,7 +33,7 @@
                     "id": "item_2",
                     "title": "Item 2",
                     "description": "Description for item 2",
-                    "imageUrl": "https://example.com/item2.jpg",
+                    "imageUrl": "https://raw.githubusercontent.com/sabinmj/jsonRepo/refs/heads/main/images/BANNER_1400_x500_Over_200_Healthy_Meals.webp",
                     "link": "/item2-details",
                     "layout": 0.5
                 },
@@ -80,7 +80,7 @@
                     "id": "item_6",
                     "title": "Item 6",
                     "description": "Description for item 6",
-                    "imageUrl": "https://example.com/item6.jpg",
+                    "imageUrl": "https://picsum.photos/200",
                     "link": "/item6-details",
                     "layout": 0.5
                 }
