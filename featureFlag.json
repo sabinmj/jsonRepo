@@ -1,8 +1,8 @@
 {
-  allflags:[
-    { 
-      name:"ecommerce",
-      is_active:true
-    }
-  ]
+    "allflags": [
+        {
+            "name": "ecommerce",
+            "is_active": true
+        }
+    ]
 }
