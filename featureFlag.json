@@ -1,5 +1,5 @@
 {
-    "allflags": [
+    "allFlags": [
         {
             "name": "ecommerce",
             "is_active": true
