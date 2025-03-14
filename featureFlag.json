@@ -2,7 +2,7 @@
     "allFlags": [
         {
             "name": "ecommerce",
-            "is_active": false
+            "is_active": true
         }
     ]
 }
