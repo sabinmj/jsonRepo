@@ -3,16 +3,16 @@
     {
       "id": "category_1",
       "title": "Category 1",
-      "categoryType": "HotProducts",
       "button": {
         "name": "Go to Category 1",
         "link": "/category1"
       },
       "items": {
+        "categoryType": "hot_products",
         "categoryViewType": "HORIZONTAL",
         "items": [
           {
-            "id": 1,
+            "id": "1",
             "title": "Item 1",
             "description": "Description for item 1",
             "image": "https://picsum.photos/seed/picsum/200/300",
@@ -21,7 +21,7 @@
             "review": 4.5
           },
           {
-            "id": 2,
+            "id": "2",
             "title": "Item 2",
             "description": "Description for item 2",
             "image": "https://raw.githubusercontent.com/sabinmj/jsonRepo/refs/heads/main/images/BANNER_1400_x500_Over_200_Healthy_Meals.webp",
@@ -44,12 +44,12 @@
     {
       "id": "category_2",
       "title": "Category 2",
-      "categoryType": "ShareWithFriends",
       "button": {
         "name": "Go to Category 2",
         "link": "/category2"
       },
       "items": {
+        "categoryType": "share_with_friends",
         "categoryViewType": "VERTICAL",
         "id": "category_2_id",
         "message": "Share with friends and earn rewards!"
@@ -64,13 +64,12 @@
     {
       "id": "category_3",
       "title": "Category 3",
-      "categoryType": "Banners",
       "button": {
         "name": "Go to Category 3",
         "link": "/category3"
       },
       "items": {
-        "categoryViewType": "HORIZONTAL",
+        "categoryType": "banners",
         "items": [
           {
             "id": "banner_1",
@@ -88,11 +87,89 @@
         "text": "Category 3 Footer",
         "link": "/category3-footer-details"
       },
-      "gridData": {
-        "rowCount": 3,
-        "rowSpacing": 20
-      },
+      "gridData": null,
       "background": "BackgroundImage"
+    },
+    {
+      "id": "category_4",
+      "title": "Category 4",
+      "button": {
+        "name": "Go to Category 4",
+        "link": "/category4"
+      },
+      "items": {
+        "categoryType": "hot_products",
+        "categoryViewType": "VERTICAL",
+        "items": [
+          {
+            "id": "3",
+            "title": "Item 3",
+            "description": "Description for item 3",
+            "image": "https://example.com/product_image_3.jpg",
+            "unit": "kg",
+            "price": 15.99,
+            "review": 4.2
+          }
+        ]
+      },
+      "footer": {
+        "text": "Category 4 Footer",
+        "link": "/category4-footer-details"
+      },
+      "gridData": {
+        "rowCount": 1,
+        "rowSpacing": 15
+      },
+      "background": "PlainColorFill"
+    },
+    {
+      "id": "category_5",
+      "title": "Category 5",
+      "button": {
+        "name": "Go to Category 5",
+        "link": "/category5"
+      },
+      "items": {
+        "categoryType": "share_with_friends",
+        "categoryViewType": "HORIZONTAL",
+        "id": "category_5_id",
+        "message": "Invite your friends to join and earn rewards!"
+      },
+      "footer": {
+        "text": "Category 5 Footer",
+        "link": "/category5-footer-details"
+      },
+      "gridData": null,
+      "background": "BackgroundImageFill"
+    },
+    {
+      "id": "category_6",
+      "title": "Category 6",
+      "button": {
+        "name": "Go to Category 6",
+        "link": "/category6"
+      },
+      "items": {
+        "categoryType": "banners",
+        "items": [
+          {
+            "id": "banner_3",
+            "imageUrl": "https://example.com/banner_image_1.jpg",
+            "link": "/banner3-details"
+          },
+          {
+            "id": "banner_4",
+            "imageUrl": "https://example.com/banner_image_2.jpg",
+            "link": "/banner4-details"
+          }
+        ]
+      },
+      "footer": {
+        "text": "Category 6 Footer",
+        "link": "/category6-footer-details"
+      },
+      "gridData": null,
+      "background": "PlainColor"
     }
   ]
 }
