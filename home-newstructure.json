@@ -216,6 +216,7 @@
       },
       "items": {
         "categoryType": "share_with_friends",
+        "id": "category_2_id",
         "categoryViewType": "HORIZONTAL",
         "message": "Share with your friends to earn exciting rewards!"
       },
