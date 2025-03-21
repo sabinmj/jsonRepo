@@ -1,0 +1,98 @@
+{
+  "categories": [
+    {
+      "id": "category_1",
+      "title": "Category 1",
+      "categoryType": "HotProducts",  // Category type
+      "button": {
+        "name": "Go to Category 1",
+        "link": "/category1"
+      },
+      "items": {
+        "categoryType": "HORIZONTAL",
+        "items": [
+          {
+            "id": 1,
+            "title": "Item 1",
+            "description": "Description for item 1",
+            "image": "https://picsum.photos/seed/picsum/200/300",
+            "unit": "kg",
+            "price": 10.99,
+            "review": 4.5
+          },
+          {
+            "id": 2,
+            "title": "Item 2",
+            "description": "Description for item 2",
+            "image": "https://raw.githubusercontent.com/sabinmj/jsonRepo/refs/heads/main/images/BANNER_1400_x500_Over_200_Healthy_Meals.webp",
+            "unit": "g",
+            "price": 20.99,
+            "review": 4.8
+          }
+        ]
+      },
+      "footer": {
+        "text": "Category 1 Footer",
+        "link": "/category1-footer-details"
+      },
+      "gridData": {
+        "rowCount": 2,
+        "rowSpacing": 10
+      },
+      "background": "Default"
+    },
+    {
+      "id": "category_2",
+      "title": "Category 2",
+      "categoryType": "ShareWithFriends",  // ShareWithFriends type
+      "button": {
+        "name": "Go to Category 2",
+        "link": "/category2"
+      },
+      "items": {
+        "categoryType": "VERTICAL",
+        "id": "category_2_id",
+        "message": "Share with friends and earn rewards!"
+      },
+      "footer": {
+        "text": "Category 2 Footer",
+        "link": "/category2-footer-details"
+      },
+      "gridData": null,  // No grid data for this category type
+      "background": "PlainColor"
+    },
+    {
+      "id": "category_3",
+      "title": "Category 3",
+      "categoryType": "Banners",  // Banners type
+      "button": {
+        "name": "Go to Category 3",
+        "link": "/category3"
+      },
+      "items": {
+        "categoryType": "HORIZONTAL",
+        "items": [
+          {
+            "id": "banner_1",
+            "imageUrl": "https://raw.githubusercontent.com/sabinmj/jsonRepo/refs/heads/main/images/1600w-_oB9xQzKQAA.webp",
+            "link": "/banner1-details"
+          },
+          {
+            "id": "banner_2",
+            "imageUrl": "https://raw.githubusercontent.com/sabinmj/jsonRepo/refs/heads/main/images/BANNER_1400_x500_Over_200_Healthy_Meals.webp",
+            "link": "/banner2-details"
+          }
+        ]
+      },
+      "footer": {
+        "text": "Category 3 Footer",
+        "link": "/category3-footer-details"
+      },
+      "gridData": {
+        "rowCount": 3,
+        "rowSpacing": 20
+      },
+      "background": "BackgroundImage"
+    }
+  ]
+}
