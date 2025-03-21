@@ -2,174 +2,229 @@
   "categories": [
     {
       "id": "category_1",
-      "title": "Category 1",
+      "title": "Food",
       "button": {
-        "name": "Go to Category 1",
-        "link": "/category1"
+        "name": "See All Food",
+        "link": "/food"
       },
       "items": {
         "categoryType": "hot_products",
-        "categoryViewType": "HORIZONTAL",
+        "categoryViewType": "GRID",
         "items": [
           {
             "id": "1",
-            "title": "Item 1",
-            "description": "Description for item 1",
-            "image": "https://picsum.photos/seed/picsum/200/300",
-            "unit": "kg",
-            "price": 10.99,
-            "review": 4.5
+            "title": "Pizza",
+            "description": "Delicious cheesy pizza",
+            "image": "https://example.com/pizza.jpg",
+            "unit": "each",
+            "price": 15.99,
+            "review": 4.8
           },
           {
             "id": "2",
-            "title": "Item 2",
-            "description": "Description for item 2",
-            "image": "https://raw.githubusercontent.com/sabinmj/jsonRepo/refs/heads/main/images/BANNER_1400_x500_Over_200_Healthy_Meals.webp",
-            "unit": "g",
-            "price": 20.99,
-            "review": 4.8
+            "title": "Burger",
+            "description": "Juicy burger with fresh ingredients",
+            "image": "https://example.com/burger.jpg",
+            "unit": "each",
+            "price": 9.99,
+            "review": 4.6
+          },
+          {
+            "id": "3",
+            "title": "Sushi",
+            "description": "Fresh sushi rolls",
+            "image": "https://example.com/sushi.jpg",
+            "unit": "each",
+            "price": 19.99,
+            "review": 4.7
+          },
+          {
+            "id": "4",
+            "title": "Pasta",
+            "description": "Creamy pasta with mushrooms",
+            "image": "https://example.com/pasta.jpg",
+            "unit": "each",
+            "price": 12.99,
+            "review": 4.5
           }
         ]
       },
       "footer": {
-        "text": "Category 1 Footer",
-        "link": "/category1-footer-details"
+        "text": "Explore more in the Food Category",
+        "link": "/food-footer-details"
       },
       "gridData": {
         "rowCount": 2,
         "rowSpacing": 10
       },
-      "background": "Default"
+      "background": "PlainColorFill"
     },
     {
       "id": "category_2",
-      "title": "Category 2",
+      "title": "Electronics",
       "button": {
-        "name": "Go to Category 2",
-        "link": "/category2"
+        "name": "Shop Electronics",
+        "link": "/electronics"
       },
       "items": {
-        "categoryType": "share_with_friends",
-        "categoryViewType": "VERTICAL",
-        "id": "category_2_id",
-        "message": "Share with friends and earn rewards!"
+        "categoryType": "hot_products",
+        "categoryViewType": "GRID",
+        "items": [
+          {
+            "id": "5",
+            "title": "Smartphone",
+            "description": "Latest model with amazing features",
+            "image": "https://example.com/smartphone.jpg",
+            "unit": "each",
+            "price": 699.99,
+            "review": 4.9
+          },
+          {
+            "id": "6",
+            "title": "Laptop",
+            "description": "Powerful laptop for work and play",
+            "image": "https://example.com/laptop.jpg",
+            "unit": "each",
+            "price": 1299.99,
+            "review": 4.8
+          },
+          {
+            "id": "7",
+            "title": "Headphones",
+            "description": "Noise-cancelling headphones",
+            "image": "https://example.com/headphones.jpg",
+            "unit": "each",
+            "price": 199.99,
+            "review": 4.7
+          },
+          {
+            "id": "8",
+            "title": "Smart Watch",
+            "description": "Track your fitness and health",
+            "image": "https://example.com/smartwatch.jpg",
+            "unit": "each",
+            "price": 249.99,
+            "review": 4.6
+          }
+        ]
       },
       "footer": {
-        "text": "Category 2 Footer",
-        "link": "/category2-footer-details"
+        "text": "Check out our electronics collection",
+        "link": "/electronics-footer-details"
+      },
+      "gridData": {
+        "rowCount": 2,
+        "rowSpacing": 12
+      },
+      "background": "BackgroundImageFill"
+    },
+    {
+      "id": "category_3",
+      "title": "Beauty",
+      "button": {
+        "name": "Shop Beauty",
+        "link": "/beauty"
+      },
+      "items": {
+        "categoryType": "banners",
+        "categoryViewType": "HORIZONTAL",
+        "items": [
+          {
+            "id": "9",
+            "imageUrl": "https://raw.githubusercontent.com/sabinmj/jsonRepo/refs/heads/main/images/1600w-_oB9xQzKQAA.webp",
+            "link": "/beauty-banner-1-details"
+          },
+          {
+            "id": "10",
+            "imageUrl": "https://raw.githubusercontent.com/sabinmj/jsonRepo/refs/heads/main/images/BANNER_1400_x500_Over_200_Healthy_Meals.webp",
+            "link": "/beauty-banner-2-details"
+          }
+        ]
+      },
+      "footer": {
+        "text": "Discover the latest in beauty",
+        "link": "/beauty-footer-details"
       },
       "gridData": null,
       "background": "PlainColor"
     },
     {
-      "id": "category_3",
-      "title": "Category 3",
-      "button": {
-        "name": "Go to Category 3",
-        "link": "/category3"
-      },
-      "items": {
-        "categoryType": "banners",
-        "items": [
-          {
-            "id": "banner_1",
-            "imageUrl": "https://raw.githubusercontent.com/sabinmj/jsonRepo/refs/heads/main/images/1600w-_oB9xQzKQAA.webp",
-            "link": "/banner1-details"
-          },
-          {
-            "id": "banner_2",
-            "imageUrl": "https://raw.githubusercontent.com/sabinmj/jsonRepo/refs/heads/main/images/BANNER_1400_x500_Over_200_Healthy_Meals.webp",
-            "link": "/banner2-details"
-          }
-        ]
-      },
-      "footer": {
-        "text": "Category 3 Footer",
-        "link": "/category3-footer-details"
-      },
-      "gridData": null,
-      "background": "BackgroundImage"
-    },
-    {
       "id": "category_4",
-      "title": "Category 4",
+      "title": "Toys",
       "button": {
-        "name": "Go to Category 4",
-        "link": "/category4"
+        "name": "Shop Toys",
+        "link": "/toys"
       },
       "items": {
         "categoryType": "hot_products",
-        "categoryViewType": "VERTICAL",
+        "categoryViewType": "GRID",
         "items": [
           {
-            "id": "3",
-            "title": "Item 3",
-            "description": "Description for item 3",
-            "image": "https://example.com/product_image_3.jpg",
-            "unit": "kg",
-            "price": 15.99,
-            "review": 4.2
+            "id": "11",
+            "title": "Lego Set",
+            "description": "Build your own city with this Lego set",
+            "image": "https://example.com/lego.jpg",
+            "unit": "each",
+            "price": 29.99,
+            "review": 4.9
+          },
+          {
+            "id": "12",
+            "title": "Doll House",
+            "description": "A complete doll house set for imaginative play",
+            "image": "https://example.com/dollhouse.jpg",
+            "unit": "each",
+            "price": 49.99,
+            "review": 4.8
+          },
+          {
+            "id": "13",
+            "title": "Action Figures",
+            "description": "Collectible action figures",
+            "image": "https://example.com/actionfigures.jpg",
+            "unit": "each",
+            "price": 19.99,
+            "review": 4.7
+          },
+          {
+            "id": "14",
+            "title": "Play-Doh Set",
+            "description": "Creative play with colorful Play-Doh",
+            "image": "https://example.com/playdoh.jpg",
+            "unit": "each",
+            "price": 12.99,
+            "review": 4.6
           }
         ]
       },
       "footer": {
-        "text": "Category 4 Footer",
-        "link": "/category4-footer-details"
+        "text": "Shop toys for all ages",
+        "link": "/toys-footer-details"
       },
       "gridData": {
-        "rowCount": 1,
+        "rowCount": 2,
         "rowSpacing": 15
       },
       "background": "PlainColorFill"
     },
     {
       "id": "category_5",
-      "title": "Category 5",
+      "title": "Special Offers",
       "button": {
-        "name": "Go to Category 5",
-        "link": "/category5"
+        "name": "Grab Special Offers",
+        "link": "/special-offers"
       },
       "items": {
         "categoryType": "share_with_friends",
         "categoryViewType": "HORIZONTAL",
-        "id": "category_5_id",
-        "message": "Invite your friends to join and earn rewards!"
+        "message": "Share with your friends to earn exciting rewards!"
       },
       "footer": {
-        "text": "Category 5 Footer",
-        "link": "/category5-footer-details"
+        "text": "Check out our special offers",
+        "link": "/special-offers-footer-details"
       },
       "gridData": null,
-      "background": "BackgroundImageFill"
-    },
-    {
-      "id": "category_6",
-      "title": "Category 6",
-      "button": {
-        "name": "Go to Category 6",
-        "link": "/category6"
-      },
-      "items": {
-        "categoryType": "banners",
-        "items": [
-          {
-            "id": "banner_3",
-            "imageUrl": "https://example.com/banner_image_1.jpg",
-            "link": "/banner3-details"
-          },
-          {
-            "id": "banner_4",
-            "imageUrl": "https://example.com/banner_image_2.jpg",
-            "link": "/banner4-details"
-          }
-        ]
-      },
-      "footer": {
-        "text": "Category 6 Footer",
-        "link": "/category6-footer-details"
-      },
-      "gridData": null,
-      "background": "PlainColor"
+      "background": "BackgroundImage"
     }
   ]
 }
