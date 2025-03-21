@@ -3,7 +3,7 @@
     {
       "id": "category_1",
       "title": "Category 1",
-      "categoryType": "HotProducts",  // Category type
+      "categoryType": "HotProducts",
       "button": {
         "name": "Go to Category 1",
         "link": "/category1"
@@ -44,7 +44,7 @@
     {
       "id": "category_2",
       "title": "Category 2",
-      "categoryType": "ShareWithFriends",  // ShareWithFriends type
+      "categoryType": "ShareWithFriends",
       "button": {
         "name": "Go to Category 2",
         "link": "/category2"
@@ -58,13 +58,13 @@
         "text": "Category 2 Footer",
         "link": "/category2-footer-details"
       },
-      "gridData": null,  // No grid data for this category type
+      "gridData": null,
       "background": "PlainColor"
     },
     {
       "id": "category_3",
       "title": "Category 3",
-      "categoryType": "Banners",  // Banners type
+      "categoryType": "Banners",
       "button": {
         "name": "Go to Category 3",
         "link": "/category3"
