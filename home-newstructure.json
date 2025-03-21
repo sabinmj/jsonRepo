@@ -9,7 +9,7 @@
         "link": "/category1"
       },
       "items": {
-        "categoryType": "HORIZONTAL",
+        "categoryViewType": "HORIZONTAL",
         "items": [
           {
             "id": 1,
@@ -50,7 +50,7 @@
         "link": "/category2"
       },
       "items": {
-        "categoryType": "VERTICAL",
+        "categoryViewType": "VERTICAL",
         "id": "category_2_id",
         "message": "Share with friends and earn rewards!"
       },
@@ -70,7 +70,7 @@
         "link": "/category3"
       },
       "items": {
-        "categoryType": "HORIZONTAL",
+        "categoryViewType": "HORIZONTAL",
         "items": [
           {
             "id": "banner_1",
